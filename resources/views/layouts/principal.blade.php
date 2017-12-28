@@ -206,7 +206,7 @@
 		</ul>
 		<center>
 			<div class="divFooter logo">
-				<span id="spanFooter" class="spanFooter" style="text-align:center;"> <strong>Información</strong><br> micomiteonline@gmail.com <br> +(569) 9670 94 60</span><br>
+				<span id="spanFooter" class="spanFooter" style="text-align:center;"> <strong>Información</strong><br> micomiteonline@gmail.com <br> +(569) 3192 07 11</span><br>
 				<span id="spanFooter" class="spanFooter" style="text-align:center;">&copy;MiComiteOnline.cl</span><br><br><br>
 			</div>
 		</center>

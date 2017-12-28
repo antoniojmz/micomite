@@ -42,7 +42,7 @@
 				var a = "toastr."+v_tipo+"('" + v_mensaje + "','" + v_titulo + "');";
 				eval(a);
 			</script>
-		@endifqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+		@endif
 		@include ('layouts._alerts')
 		@include ('layouts.principal')
 	</body>

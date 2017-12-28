@@ -80,8 +80,8 @@
 		<script type="text/javascript" src="/js/index/index.min.js"></script>
 	</head>
 	<body>
-	@if (Session::has('resultado'))
-		<script Language="Javascript">
+		@if (Session::has('resultado'))
+			<script Language="Javascript">
 				var v_titulo 	= '{{ Session::get('resultado.titulo') }}';
 				var v_mensaje 	= '{{ Session::get('resultado.mensaje') }}';
 				var v_tipo 		= '{{ Session::get('resultado.tipo') }}';
