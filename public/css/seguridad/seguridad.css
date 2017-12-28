@@ -1,0 +1,28 @@
+.descripcion {
+  display: inline-block;
+  font-size: 14px;
+}
+
+
+
+.star-rating a {
+  display: inline-block;
+  color:  #f39c12;
+  font-size: 23px;
+  pointer-events: none;
+  cursor: default;
+  text-align: center;
+}
+
+.star_disable {
+  display: inline-block;
+  color: #95a5a6;
+  font-size: 24px;
+}
+
+.starrr{
+   font-size:26px;
+   display: inline-block;
+   color:  #f39c12;
+}
+

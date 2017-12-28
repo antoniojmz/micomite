@@ -1,0 +1,22 @@
+.panel {
+
+	border:			none;
+	box-shadow:		0 0 3px rgba(0,0,0,0.5);
+
+	> .panel-heading {
+		@extend.clearfix;
+
+		> .panel-title {
+			font-family:		'Roboto Condensed','Helvetica Neve',Arial,sans-serif;
+			font-weight:		400;
+		}
+	}
+
+	> .panel-body {
+		@extend.clearfix;
+	}
+
+	> .panel-footer {
+		@extend.clearfix;
+	}
+}

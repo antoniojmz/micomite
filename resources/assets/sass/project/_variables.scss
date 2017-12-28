@@ -1,0 +1,36 @@
+///////////////////////////////////////////////////////////////////////////
+// Core
+///////////////////////////////////////////////////////////////////////////
+
+$body-bg:							#f1f1f1;
+
+///////////////////////////////////////////////////////////////////////////
+// Branding
+///////////////////////////////////////////////////////////////////////////
+
+$brand-primary:         			#3492DB;
+
+///////////////////////////////////////////////////////////////////////////
+// Nabvar
+///////////////////////////////////////////////////////////////////////////
+
+$navbar-default-color:				#dddddd;
+$navbar-default-bg:					#3963AA;
+$navbar-default-border:				darken($navbar-default-bg, 6.5%);
+
+$navbar-default-link-color:                $navbar-default-color;
+$navbar-default-link-hover-color:          lighten($navbar-default-link-color, 10%);
+$navbar-default-link-hover-bg:             transparent;
+$navbar-default-link-active-color:         #555 !default;
+$navbar-default-link-active-bg:            darken($navbar-default-bg, 6.5%) !default;
+$navbar-default-link-disabled-color:       #ccc !default;
+$navbar-default-link-disabled-bg:          transparent !default;
+
+$navbar-default-brand-color:               #ffffff;
+$navbar-default-brand-hover-color:         navbar-default-brand-color;
+$navbar-default-brand-hover-bg:            transparent;
+
+///////////////////////////////////////////////////////////////////////////
+// Content
+///////////////////////////////////////////////////////////////////////////
+$content-body-vertical-padding:		25px;

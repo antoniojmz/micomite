@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery contextMenu</title>
+
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/github.min.css">
+    <link href="../../../dist/jquery.contextMenu.css" rel="stylesheet" type="text/css" />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="../../../src/jquery.contextMenu.js" type="text/javascript"></script>
+
+    <script src="../../../src/jquery.ui.position.min.js" type="text/javascript"></script>
+
+    <script src="http://swisnl.github.io/jQuery-contextMenu/js/main.js" type="text/javascript"></script>
+
+</head>
+    <body>
+        <p><span class="context-menu-one btn btn-neutral">right click me</span></p>
+    </body>
+    <script type="text/javascript">
+    $(function(){
+        $.contextMenu({
+            selector: '.context-menu-one',
+            callback: function(key, options) {
+                var m = "clicked: " + key;
+                window.console && console.log(m) || alert(m);
+            },
+            items: {
+                "edit": {name: "Edit", icon: "edit", accesskey: "e"},
+                "cut": {name: "Cut", icon: "cut", accesskey: "c"},
+                // first unused character is taken (here: o)
+                "copy": {name: "Copy", icon: "copy", accesskey: "c o p y"},
+                // words are truncated to their first letter (here: p)
+                "paste": {name: "Paste", icon: "paste", accesskey: "cool paste"},
+                "delete": {name: "Delete", icon: "delete"},
+                "sep1": "---------",
+                "quit": {name: "Quit", icon: function($element, key, item){ return 'context-menu-icon context-menu-icon-quit'; }}
+            }
+        });
+    });
+    </script>
+</html>

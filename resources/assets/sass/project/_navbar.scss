@@ -1,0 +1,36 @@
+.navbar {
+
+	border:			none;
+	box-shadow:		0 0 3px rgba(0,0,0,0.5);
+
+	.navbar-header {
+
+		.navbar-brand {
+			background-color:        $brand-primary;
+		}
+	}
+
+	.navbar-nav {
+
+		> li {
+
+			> a {
+
+				&.navbar-btn {
+
+					padding:			 6px 12px;
+
+					&.btn {
+
+						border: none;
+
+						&.btn-primary {
+
+							@include button-variant($btn-primary-color, $btn-primary-bg, $btn-primary-border);
+						}
+					}
+				}
+			}
+		}
+	}
+}
